@@ -1,0 +1,156 @@
+.container{
+  display:block;
+  margin:0px auto;
+  text-align:center;
+  font-family:helvetica;
+}
+
+ul{
+  padding:0px;
+}
+
+li{
+  list-style-type:none;
+  line-height:30px;
+  display:inline;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+a{
+  text-decoration:none;
+  color:grey;
+  text-align:left;
+}
+
+a:hover{
+  color:white;
+}
+
+.task-list{
+  width:370px;
+  margin:auto;
+  text-align:left;
+  border:1px solid grey;
+  border-radius:4px;
+}
+
+.task-list div:not(:last-child){
+  border-bottom:1px solid grey;
+}
+
+.dashboard h1, #index h1{
+  background-color:grey;
+  color:white;
+  font-family:garamond;
+  height:50px;
+  display:block;
+  margin:0px auto;
+  border:5px solid white;
+  border-radius:8px;
+  line-height:45px;
+}
+
+.dashboard ul{
+  margin:0px;
+  margin-top:20px;
+}
+
+.dashboard li{
+  font-family:sans-serif;
+  line-height:20px;
+  border-radius:4px;
+  background-color:#d1d1d1;
+  border:1px solid grey;
+  padding:10px;
+}
+
+.dashboard a{
+  padding:40px;
+}
+
+#index h2{
+  font-family:garamond;
+  display:inline;
+  padding-left:20px;
+  padding-right:20px;
+  text-align:center;
+  line-height:30px;
+}
+
+#index a:hover{
+  color:
+}
+
+.indi-task{
+  border:1px solid white;
+  border-radius:8px;
+  background-color:grey;
+  color:#d1d1d1;
+}
+
+.indi-task h1{
+  color:white;
+  border-bottom:1px solid white;
+  line-height:50px;
+  margin:0px;
+}
+.task-desc{
+  border:1px solid grey;
+  border-radius:8px;
+  color:grey;
+  line-height:20px;
+}
+
+.link-index{
+  line-height:30px;
+  background-color:#d1d1d1;
+  color:white;
+  width:150px;
+  margin:0px auto;
+  display:block;
+  border-bottom:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+form{
+  color:grey;
+  font-family:garamond;
+}
+legend{
+  text-align:center;
+  margin:0px auto;
+  display:block;
+  font-size:25px;
+  background-color:grey;
+  color:white;
+  width:100%;
+  border:1px solid white;
+  border-radius:4px;
+  margin-bottom:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+input{
+  width:100%;
+  line-height:30px;
+  border-radius:4px;
+}
+textarea{
+  width:100%;
+  border:1px solid grey;
+  border-radius:4px;
+  height:50px;
+  margin-top:20px;
+}
+
+button{
+  background-color:#d1d1d1;
+  color:grey;
+  border-radius:4px;
+  width:100%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task Manager</title>
+    <meta name="description" content="Manage all my things">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- <h1>All Tasks</h1>
+
+  <h3>#<Task:0x007fc52c6dae40></h3>
+ -->
+
+<div id="index">
+  <h1>All Tasks</h1>
+
+    <div class="task-list">
+      
+        <div class="individual-task">
+          <h2> <a href="/tasks/1">Run</a></h2>
+          <a href="/tasks/1/edit">Edit</a>
+        </div>
+        <form action="/tasks/1" method="POST">
+          <input type="hidden" name="_method" value="DELETE">
+          <input type="submit" value="delete"/>
+        </form>
+      
+    </div>
+</div>
+<footer class='link-index'>
+  <a href="/">home</a>
+</footer>
+
+  </div>
+</body>
+</html>

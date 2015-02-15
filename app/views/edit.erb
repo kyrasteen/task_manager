@@ -1,0 +1,8 @@
+  <p id='edit'>Edit</p>
+<form id='update' action="/tasks/<%= @task.id %>" method="post">
+  <!-- method overwritten browser doesnt understand put -->
+  <input type="hidden" name="_method" value="PUT" />
+  <input type='text' name='task[title]' value="<%= @task.title %>"/><br/>
+  <textarea name='task[description]'><%= @task.description %></textarea><br/>
+  <button type='submit'>Update</button>
+</form>
